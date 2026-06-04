@@ -4,12 +4,7 @@
 #define TOKENS_MAX 5
 
 
-typedef enum {
-    INSERT,
-    SELECT_ALL,
-    SELECT_KEY,
-    DELETE
-} Command;
+
 
 typedef struct {
     int id;
